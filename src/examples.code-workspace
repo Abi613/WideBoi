@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Arduino/libraries/ESP32-BLE-CompositeHID/examples"
+		},
+		{
+			"name": "esp32_gamepad",
+			"path": "../../esp32_gamepad"
+		},
+		{
+			"name": "260224-151946-esp32doit-devkit-v1",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"stm32cube-ide-clangd.path": "cube",
+		"powershell.cwd": "esp32_gamepad"
+	}
+}
