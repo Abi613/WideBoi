@@ -81,12 +81,13 @@ Install these libraries via Arduino Library Manager or PlatformIO:
 
 ### PlatformIO (`platformio.ini`)
 ```ini
-[env:esp32dev]
-platform = espressif32
-board = esp32dev
+[env:esp32doit-devkit-v1]
+platform = espressif32 @ 6.8.1
+board = esp32doit-devkit-v1
 framework = arduino
-lib_deps =
-    https://github.com/Mystfit/ESP32-BLE-CompositeHID
+lib_deps = 
+        Callback
+        h2zero/NimBLE-Arduino@~2.1.2
 ```
 
 ---
